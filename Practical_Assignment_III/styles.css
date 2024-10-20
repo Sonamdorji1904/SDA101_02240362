@@ -1,0 +1,428 @@
+/* Custom CSS for fine-tuning */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.header .menu a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+.header .menu a:hover {
+    color: #1d4ed8;
+}
+
+.profile {
+    background-color: #72e6f5;
+}
+
+.profile-image {
+    position: absolute;
+    bottom: 0; 
+    right: 0;  
+    width: 100px;
+    margin-bottom: 0px;
+}
+
+/* Services section styles */
+.services {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.services h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.services h3 {
+    color: #00bcd4;
+    font-weight: bold;
+    font-size: large;
+}
+
+.services p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Add gap between items */
+    margin: 0 auto; /* Center the grid */
+    max-width: 800px; /* Limit the max width */
+    padding: 0; /* Remove padding left */
+}
+
+.service-item {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Center text inside service item */
+}
+
+.service-item img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 15px;
+}
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+/* Hello Section */
+.hello-section {
+    background-color: #e0f7fa;
+    padding: 50px 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hello-text {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.details {
+    background-color: #14d4ed;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.hello-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hello-text .intro {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.hello-text .description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hello-text .image-credit {
+    margin-bottom: 20px;
+}
+
+.hello-text .social-icons a {
+    margin-right: 10px;
+}
+
+.hello-image img {
+    max-width: 100%;
+}
+
+.details {
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 40px;
+}
+
+.details h3 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.details p {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/* Stats Section */
+.stats {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.stat-item {
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-item h2 {
+    color: #00bcd4;
+    font-size: 2.5rem;
+}
+
+.stat-item p {
+    margin-top: 10px;
+    font-size: 2.5rem;
+    color: #666;
+    font-weight: bolder;
+}
+
+/* Qualification section */
+.qualifications {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.subheading {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.experience, .education {
+    flex: 1;
+    margin: 10px;
+}
+
+.job, .degree {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #00bcd4;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.degree h3 {
+    color: #00bcd4;
+}
+
+.session {
+    font-weight: bold;
+}
+
+/* Qualification second section */
+.projects-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.projects-subheading {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.project-item {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.project-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.project-description {
+    padding: 20px;
+    max-width: 500px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-credit {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.project-credit a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-credit a:hover {
+    text-decoration: underline;
+}
+
+/* Testimonial section */
+.testimonial-section {
+    background-color: #2ac0d3;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.testimonial-item {
+    background-color: #2ac0d3;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.testimonial-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 10px solid #8dd7e1;
+    flex-shrink: 0;
+}
+
+.testimonial-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.testimonial-text h3 {
+    color: #0b616c;
+}
+
+.project-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.project-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.project-section p {
+    font-size: 1.1em;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+.input-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input-form input {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+.input-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #2acfcf;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.clients-section {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.clients-section h2 {
+    font-size: 1.8em;
+    color: #2acfcf;
+    margin-bottom: 20px;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.clients img {
+    max-width: 100px;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #333;
+    color: #ccc;
+}
