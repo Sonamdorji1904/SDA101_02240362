@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Card for Dogs</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            min-height: 100vh; /* Full height of the viewport */
+            margin: 0; /* Remove default margin */
+            background-color: #f8f8f8; /* Background color */
+            flex-direction: column; /* Stack elements vertically */
+            text-align: center; /* Center text */
+        }
+
+        #dog-images-container {
+            display: flex; /* Use flexbox for image layout */
+            flex-wrap: wrap; /* Allow wrapping of images */
+            justify-content: center; /* Center images */
+            margin-top: 20px; /* Spacing above images */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Random Dogs</h1>
+        <p>This generates a random image of Eskimo dogs from Dog API.</p>
+        <custom-card id="dog-card">
+            <span slot="header">Eskimo Dog</span>
+            <span slot="content" id="dog-image-container"></span>
+            <span slot="footer">Enjoy this adorable dog!</span>
+        </custom-card>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        fetch('https://dog.ceo/api/breed/eskimo/images/random')
+            .then(response => response.json())
+            .then(data => {
+                const imageUrl = data.message; 
+                const container = document.getElementById('dog-image-container');
+                const img = document.createElement('img');
+                img.src = imageUrl; 
+                img.alt = 'Random Eskimo Dog image';
+                img.classList.add('dog-image'); 
+                container.appendChild(img); 
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    </script>
+</body>
+</html>
