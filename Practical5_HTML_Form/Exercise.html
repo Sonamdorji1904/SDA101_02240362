@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Seminar Registration</title>
+</head>
+
+<body>
+    <h1>College Seminar Registration</h1>
+    <form>
+        <!-- This is for Name Section -->
+        <label for="name">Name: </label><br>
+        <input type="text" required><br><br>
+
+        <!-- This is for DoB Section -->
+        <label for="dob">Date of Birth: </label><br>
+        <input type="date" required><br><br>
+
+        <!-- This is for Gender Section -->
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        <input type="radio" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <!-- This is for Email Section -->
+        <label for="email">Email Address: </label><br>
+        <input type="email" required><br><br>
+
+        <!-- This is for password Section -->
+        <label for="password">Password:</label><br>
+        <input type="password" required><br><br>
+
+        <!-- This is for phone no Section -->
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" required><br><br>
+
+        <!-- This is for Time Section -->
+        <label for="seminarTime">Preferred Seminar Time:</label><br>
+        <input type="time" name="seminarTime" required><br><br>
+
+        <!-- This is for Meal preferences Section -->
+        <label for="meal">Meal Preference: </label><br>
+        <select name="meal" required>
+            <option value="Vegetarian">Vegetarian</option>
+            <option value="Non-Vegetarian">Non-Vegetarian</option>
+            <option value="Vegan">Vegan</option>
+        </select><br><br>
+
+        <!-- This is for Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
