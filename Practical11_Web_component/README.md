@@ -5,7 +5,7 @@ Your card component should:
 
 * Use a custom element with an appropriate name (following Web Components naming conventions)
 
-* * Implement shadow DOM for style encapsulation
+* Implement shadow DOM for style encapsulation
 
 * Include at least three different slot areas (e.g., header, content, footer)
 
