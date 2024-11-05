@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-sans bg-gray-50">
+
+  <!-- Header Section -->
+  <header class="header bg-white shadow-md">
+    <div class="container mx-auto flex justify-between items-center px-6 py-4">
+      <div class="logo">Logo</div>
+      <nav class="menu space-x-4">
+        <a href="#" class="text-gray-700 hover:text-blue-600">Home</a>
+        <a href="#" class="text-gray-700 hover:text-blue-600">Services</a>
+        <a href="#" class="text-gray-700 hover:text-blue-600">About</a>
+        <a href="#" class="text-gray-700 hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Profile Section -->
+  <section class="profile py-12">
+    <div class="container mx-auto flex flex-col md:flex-row items-center text-left px-6">
+      <!-- Left side (text) -->
+      <div class="md:w-1/2 px-6 mb-6 md:mb-0">
+        <h2 class="text-lg text-gray-500">Hi, I'm</h2>
+        <h1 class="text-5xl font-bold text-gray-900 text-left pb-2">Betty Nilson</h1>
+        <p class="text-xl text-gray-600 mb-4">Art Director</p>
+        <p class="text-sm text-gray-500 italic">Image by <a href="#" class="text-blue-600 underline">Freepik</a></p>
+        
+        <div class="mt-6">
+          <p><strong>Date of Birth:</strong> Aug 25, 1988</p>
+          <p><strong>Address:</strong> Rosia Road 55, Gibraltar, UK</p>
+          <p><strong>E-mail:</strong> <a href="mailto:julian.mack@company.com" class="text-blue-600 underline">julian.mack@company.com</a></p>
+          <p><strong>Phone:</strong> +13 5266 22 345</p>
+        </div>
+      </div>
+      
+      <!-- Right side (image) -->
+      <div class="md:w-1/2 flex justify-center">
+        <img src="./images/bretty.png" alt="Profile Image" class="profile-img h-64 w-64 object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <div class="s-container">
+        <h1 class="text-2xl font-bold mb-2">Have a Look at my Services</h1>
+        <p class="text-lg text-gray-600 mb-8">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <div class="services-list grid grid-cols-2 gap-4 mx-auto max-w-xl">
+            <div class="service-item p-4 text-center">
+                <img src="./images/web design.png" alt="Web Design" class="max-w-full h-auto mb-3">
+                <h3 class="text-lg text-teal-600 font-bold">Web Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+            </div>
+            <div class="service-item p-4 text-center">
+                <img src="./images/mobile design.png" alt="Mobile Design" class="max-w-full h-auto mb-3">
+                <h3 class="text-lg text-teal-600 font-bold">Mobile Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+            </div>
+            <div class="service-item p-4 text-center">
+                <img src="./images/development.png" alt="Development" class="max-w-full h-auto mb-3">
+                <h3 class="text-lg text-teal-600 font-bold">Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+            </div>
+            <div class="service-item p-4 text-center">
+                <img src="./images/interaction design.png" alt="Interaction Design" class="max-w-full h-auto mb-3">
+                <h3 class="text-lg text-teal-600 font-bold">Interaction Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- About Section -->
+  <section class="hello-section py-12">
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-0">
+          <div class="hello-text">
+              <h1 class="text-3xl font-bold">Hello!</h1>
+              <p class="intro text-lg">I'm a creative multitalented graphic designer</p>
+              <p class="description">
+                  I am a creative graphic designer. I am an expert in the Adobe Creative Suite and have worked with a variety of clients. Connecting your ideas to customer perception & all the digital dots in between...
+              </p>
+              <p class="image-credit">Image from <a href="#" class="text-blue-600 underline">Freepik</a></p>
+              <div class="social-icons flex space-x-4 mt-4">
+                  <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                  <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                  <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+              </div>
+          </div>
+          <div class="hello-image">
+              <img src="./images/her.png" alt="Graphic Designer" class="w-full h-auto">
+          </div>
+          <div class="details mb-5">
+            <h3 class="text-2xl font-bold mb-4">Details</h3>
+            <p><strong>NAME:</strong><br>Betty Nilson</p>
+            <p><strong>ROLE:</strong><br>Art Director</p>
+            <p><strong>EMAIL:</strong><br>designer@example.com</p>
+            <p><strong>PHONE:</strong><br>(+987) 987 654 321</p>
+            <p><strong>WEBSITE:</strong><br>www.somewebsite.com</p>
+        </div>
+        <div class="stats grid grid-cols-2 gap-4 mb-5">
+            <div class="stat-item text-center p-4">
+                <p>Awards</p>
+                <h2 class="text-3xl font-bold">17</h2>
+            </div>
+            <div class="stat-item text-center p-4">
+                <p>XP Years</p>
+                <h2 class="text-3xl font-bold">12+</h2>
+            </div>
+            <div class="stat-item text-center p-4">
+                <p>Clients</p>
+                <h2 class="text-3xl font-bold">138</h2>
+            </div>
+            <div class="stat-item text-center p-4">
+                <p>Projects</p>
+                <h2 class="text-3xl font-bold">350</h2>
+            </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Qualifications Section -->
+  <section class="qualifications py-12">
+    <h1 class="text-3xl font-bold text-center mb-4">My Qualifications</h1>
+    <p class="subheading text-center mb-8">Who are in extremely love with eco-friendly system.</p>
+    <div class="container mx-auto px-6">
+        <div class="experience grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="job">
+                <h2 class="font-semibold">BUSINESSCO</h2>
+                <p class="date">July 2016 to Present</p>
+                <h3>Art Director</h3>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="job">
+                <h2 class="font-semibold">DESIGN STUDIO</h2>
+                <p class="date">May 2013 to July 2016</p>
+                <h3>UI/UX Designer</h3>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="job">
+                <h2 class="font-semibold">ART STUDIO</h2>
+                <p class="date">August 2007 to May 2013</p>
+                <h3>Web Designer</h3>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div class="education mt-8">
+            <div class="degree mb-4">
+                <h3 class="font-semibold">Masters in Graphics & Fine Arts</h3>
+                <p class="session">Session: 2005-11</p>
+                <p>Result: 3.78 (In the Scale of 4.00)</p>
+            </div>
+            <div class="degree mb-4">
+                <h3 class="font-semibold">Bachelor in Graphics & UI/UX</h3>
+                <p class="session">Session: 2004-11</p>
+                <p>Result: 3.4 (In the Scale of 4.00)</p>
+            </div>
+            <div class="degree mb-4">
+                <h3 class="font-semibold">Diploma in Fine Arts & Printing</h3>
+                <p class="session">Session: 2003-06</p>
+                <p>Result: 4.85 (In the Scale of 5.00)</p>
+            </div>
+            <div class="degree mb-4">
+                <h3 class="font-semibold">Diploma in History of Art</h3>
+                <p class="session">Session: 2002-11</p>
+                <p>Result: 4.85 (In the Scale of 5.00)</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects-section py-12">
+    <h1 class="text-3xl font-bold text-center mb-4">My Projects</h1>
+    <p class="projects-subheading text-center mb-8">Who are in extremely love with eco-friendly system.</p>
+
+    <div class="project-item grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="project-image">
+            <img src="./images/brand.png" alt="Branding" class="w-full h-auto"/>
+        </div>
+        <div class="project-description">
+            <h2 class="font-semibold">Branding</h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="project-credit">Image by <a href="#" class="text-blue-600 underline">Freepik</a></p>
+        </div>
+    </div>
+
+    <div class="project-item grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 reverse-layout">
+        <div class="project-description">
+            <h2 class="font-semibold">Web Design</h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="project-credit">Image by <a href="#" class="text-blue-600 underline">Freepik</a></p>
+        </div>
+        <div class="project-image">
+            <img src="./images/web.png" alt="Web Design" class="w-full h-auto"/>
+        </div>
+    </div>
+
+    <div class="project-item grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+        <div class="project-image">
+            <img src="./images/mobile.png" alt="Mobile Applications" class="w-full h-auto"/>
+        </div>
+        <div class="project-description">
+            <h2 class="font-semibold">Mobile Applications</h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="project-credit">Image by <a href="#" class="text-blue-600 underline">Freepik</a></p>
+        </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonial-section py-12">
+    <h1 class="text-3xl font-bold text-center mb-4">Testimonials</h1>
+    <div class="testimonial-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="testimonial-item text-center">
+            <img src="./images/stella.png" alt="Stella Larson" class="testimonial-img mx-auto mb-4">
+            <div class="testimonial-text">
+                <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                <h3 class="font-semibold">STELLA LARSON</h3>
+            </div>
+        </div>
+        <div class="testimonial-item text-center">
+            <img src="./images/nick.png" alt="Nick Jhonson" class="testimonial-img mx-auto mb-4">
+            <div class="testimonial-text">
+                <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                <h3 class="font-semibold">NICK JHONSON</h3>
+            </div>
+        </div>
+        <div class="testimonial-item text-center">
+            <img src="./images/olga.png" alt="Olga Ivanova" class="testimonial-img mx-auto mb-4">
+            <div class="testimonial-text">
+                <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                <h3 class="font-semibold">OLGA IVANOVA</h3>
+            </div>
+        </div>
+        <div class="testimonial-item text-center">
+            <img src="./images/pual.png" alt="Paul Hudson" class="testimonial-img mx-auto mb-4">
+            <div class="testimonial-text">
+                <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                <h3 class="font-semibold">PAUL HUDSON</h3>
+            </div>
+        </div>
+        <div class="testimonial-item text-center">
+            <img src="./images/cash.png" alt="Cash Hudson" class="testimonial-img mx-auto mb-4">
+            <div class="testimonial-text">
+                <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                <h3 class="font-semibold">CASH HUDSON</h3>
+            </div>
+        </div>
+        <div class="testimonial-item text-center">
+            <img src="./images/mike.png" alt="Mike Perry" class="testimonial-img mx-auto mb-4">
+            <div class="testimonial-text">
+                <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                <h3 class="font-semibold">MIKE PERRY</h3>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="project-section py-12">
+    <h1 class="text-3xl font-bold text-center mb-4">Do you have any Project</h1>
+    <p class="text-center mb-8">
+        Faucibus a pellentesque sit amet porttitor eget dolor. Sed euismod nisi porta lorem mollis aliquam ut porttitor. 
+        Luctus accumsan tortor posuere ac ut consequat semper fames.
+    </p>
+    <div class="input-form flex flex-col items-center">
+        <input type="text" placeholder="Enter your Name" class="mb-4 p-2 border rounded w-full max-w-md">
+        <input type="email" placeholder="Enter a valid email address" class="mb-4 p-2 border rounded w-full max-w-md">
+        <button class="bg-blue-600 text-white p-2 rounded w-full max-w-md">LET'S TALK</button>
+    </div>
+  </section>
+
+  <section class="clients-section py-12">
+      <h2 class="text-3xl font-bold text-center mb-4">MY CLIENTS</h2>
+      <div class="clients grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mx-auto px-6">
+          <img src="./images/binance.png" alt="Binance" class="h-12 object-contain">
+          <img src="./images/crolla.png" alt="Crolla" class="h-12 object-contain">
+          <img src="./images/evga.png" alt="EVGA" class="h-12 object-contain">
+          <img src="./images/tesla.png" alt="Tesla" class="h-12 object-contain">
+          <img src="./images/sony.png" alt="Sony" class="h-12 object-contain">
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer py-6 bg-gray-800 text-white text-center">
+      <p>Sample text. Click to select the Text Element.</p>
+      <p>This site was created with the <a href="https://nicepage.com" target="_blank" class="text-blue-400">Nicepage</a></p>
+  </footer>
+
+</body>
+</html>
